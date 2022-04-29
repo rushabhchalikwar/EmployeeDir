@@ -7,7 +7,8 @@ public class EmployeeUtility {
         if(employee == null){
             return true;
         }
-
-        return false;
+        else {
+            return false;
+        }
     }
 }
