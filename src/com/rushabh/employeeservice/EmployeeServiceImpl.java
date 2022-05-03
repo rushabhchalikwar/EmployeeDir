@@ -39,8 +39,9 @@ public class EmployeeServiceImpl {
     }
 
     public void deleteEmployee(int id){
-
-            employees.remove(id);
+            if(id > 0) {
+                employees.remove(id);
+            }
 
     }
 
