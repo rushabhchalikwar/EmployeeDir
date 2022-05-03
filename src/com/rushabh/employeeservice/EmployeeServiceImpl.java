@@ -42,6 +42,9 @@ public class EmployeeServiceImpl {
             if(id > 0) {
                 employees.remove(id);
             }
+            else{
+                System.out.println("Cannt remove");
+            }
 
     }
 
